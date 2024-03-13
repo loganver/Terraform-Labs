@@ -2,7 +2,7 @@
 
 ### Task-1: Manually Create a S3 Bucket using AWS Console 
 
-* Create a new S3 bucket in your Allocated Region by name: `youryame-terraform` (S3 allows lowercase only)
+* Create a new S3 bucket in your Allocated Region by name: `yourname-terraform` (S3 allows lowercase only)
 * While creating,
     - Select `"ACLs enabled"`
     - Uncheck `"block public access"` and select `"I acknowledge that the current settings might result in this bucket and the objects within becoming public"`
