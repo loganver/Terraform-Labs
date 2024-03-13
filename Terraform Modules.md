@@ -264,14 +264,6 @@ variable "sg_name" {
 ```
 cd ../..
 ```
-The steps above can be skipped if yo have executed the wget command
-```
-tree
-```
-Now, Create a key pair. The same public key will be used in the new EC2 Instance.
-```
-ssh-keygen -f mykey
-```
 ```
 vi main.tf
 ```
@@ -326,6 +318,14 @@ vi provider.tf
 provider "aws" {
   region = var.region
 }
+```
+The steps above can be skipped if yo have executed the wget command
+```
+tree
+```
+Now, Create a key pair. The same public key will be used in the new EC2 Instance.
+```
+ssh-keygen -f mykey
 ```
 ```
 vi variables.tf 
