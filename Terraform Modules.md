@@ -101,6 +101,8 @@ wget https://s3.ap-south-1.amazonaws.com/files.cloudthat.training/devops/terrafo
 ```
 tar -xvf terraform-modules.tar.gz
 ```
+
+OR Perform the below steps
 ```
 mkdir terraform-modules
 cd terraform-modules
@@ -261,6 +263,9 @@ variable "sg_name" {
 ```
 ```
 cd ../..
+```
+The steps above can be skipped if yo have executed the wget command
+```
 tree
 ```
 Now, Create a key pair. The same public key will be used in the new EC2 Instance.
